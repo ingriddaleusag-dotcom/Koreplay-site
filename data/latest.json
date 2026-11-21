@@ -1,19 +1,19 @@
 {
-  "releaseTag": "v1.6.0-build.8",
-  "releaseName": "Koreplay v1.6.0-build.8",
-  "publishedAt": "2026-11-21T06:38:13Z",
-  "hostVersion": "1.0.8",
+  "releaseTag": "v1.6.0-build.9",
+  "releaseName": "Koreplay v1.6.0-build.9",
+  "publishedAt": "2026-11-21T06:58:36Z",
+  "hostVersion": "1.0.9",
   "hostApi": 1,
   "packages": [
     {
       "id": "host",
       "abi": "all",
-      "version": "1.0.8",
-      "file": "Koreplay-mobile-universal-v1.0.8.apk",
-      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.8/Koreplay-mobile-universal-v1.0.8.apk",
-      "releaseTag": "v1.6.0-build.8",
+      "version": "1.0.9",
+      "file": "Koreplay-mobile-universal-v1.0.9.apk",
+      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.9/Koreplay-mobile-universal-v1.0.9.apk",
+      "releaseTag": "v1.6.0-build.9",
       "size": 15241694,
-      "sha256": "117f28d70a567f520e85952d5ee2ddf6bb815b482193beab1063d1baed4faadb"
+      "sha256": "7a58d9bdbf186a695378d3eee6016b5cda65ccbd36d346ce61ed75878792c0bf"
     },
     {
       "id": "ijk",
