@@ -1,19 +1,19 @@
 {
-  "releaseTag": "v1.6.0",
-  "releaseName": "Koreplay v1.6.0",
-  "publishedAt": "2026-11-20T08:04:12Z",
-  "hostVersion": "1.0.0",
+  "releaseTag": "v1.6.0-build.1",
+  "releaseName": "Koreplay v1.6.0-build.1",
+  "publishedAt": "2026-11-21T02:01:30Z",
+  "hostVersion": "1.0.1",
   "hostApi": 1,
   "packages": [
     {
       "id": "host",
       "abi": "all",
-      "version": "1.0.0",
-      "file": "Koreplay-mobile-universal-v1.0.0.apk",
-      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0/Koreplay-mobile-universal-v1.0.0.apk",
-      "releaseTag": "v1.6.0",
+      "version": "1.0.1",
+      "file": "Koreplay-mobile-universal-v1.0.1.apk",
+      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.1/Koreplay-mobile-universal-v1.0.1.apk",
+      "releaseTag": "v1.6.0-build.1",
       "size": 15241694,
-      "sha256": "d8397cdc5610217e8b627eba4233972d216ad3336dfe79af212633e8a2026f7b"
+      "sha256": "ef9bcee80a9123360e7b671fbd866c344f7cc61e117655797516c75f01071761"
     },
     {
       "id": "ijk",
@@ -98,22 +98,22 @@
     {
       "id": "python",
       "abi": "arm64-v8a",
-      "version": "1.0.0",
-      "file": "python-arm64-v8a-v1.0.0.koreplugin",
-      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0/python-arm64-v8a-v1.0.0.koreplugin",
-      "releaseTag": "v1.6.0",
-      "size": 13149901,
-      "sha256": "cbac63ceda0fc462f70461e4e5892390a5ad1976b421baa64a3d13767af62c22"
+      "version": "1.0.1",
+      "file": "python-arm64-v8a-v1.0.1.koreplugin",
+      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.1/python-arm64-v8a-v1.0.1.koreplugin",
+      "releaseTag": "v1.6.0-build.1",
+      "size": 13149904,
+      "sha256": "1857aa0f8044c421a3789e8328a4dabba2efbb93ff90ca86ca991b4653dddd32"
     },
     {
       "id": "python",
       "abi": "armeabi-v7a",
-      "version": "1.0.0",
-      "file": "python-armeabi-v7a-v1.0.0.koreplugin",
-      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0/python-armeabi-v7a-v1.0.0.koreplugin",
-      "releaseTag": "v1.6.0",
-      "size": 12499765,
-      "sha256": "20981f1ef67ff4c2ad27a0c4677c2a8212ba1ac190b3a7608c8f20e07a77e732"
+      "version": "1.0.1",
+      "file": "python-armeabi-v7a-v1.0.1.koreplugin",
+      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.1/python-armeabi-v7a-v1.0.1.koreplugin",
+      "releaseTag": "v1.6.0-build.1",
+      "size": 12499767,
+      "sha256": "3af874fac820be778f090400051b03abd2c864cf9b60135be4df11031c743a55"
     },
     {
       "id": "quickjs",
@@ -138,22 +138,22 @@
     {
       "id": "ui",
       "abi": "arm64-v8a",
-      "version": "1.0.0",
-      "file": "ui-arm64-v8a-v1.0.0.koreplugin",
-      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0/ui-arm64-v8a-v1.0.0.koreplugin",
-      "releaseTag": "v1.6.0",
-      "size": 3203213,
-      "sha256": "909aa1f793b3dc23b38aec1674a08110a276d1c4d5589dd1351bcf460521295b"
+      "version": "1.0.1",
+      "file": "ui-arm64-v8a-v1.0.1.koreplugin",
+      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.1/ui-arm64-v8a-v1.0.1.koreplugin",
+      "releaseTag": "v1.6.0-build.1",
+      "size": 3203802,
+      "sha256": "f025008089029e006ec82bcaf7e4eaf2b2b23b89210535487a4b5d7d341519b3"
     },
     {
       "id": "ui",
       "abi": "armeabi-v7a",
-      "version": "1.0.0",
-      "file": "ui-armeabi-v7a-v1.0.0.koreplugin",
-      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0/ui-armeabi-v7a-v1.0.0.koreplugin",
-      "releaseTag": "v1.6.0",
-      "size": 3202896,
-      "sha256": "ee13c2fe7c42578b4822007e90662def1b023b73c97aafb03087311f3bd7bd80"
+      "version": "1.0.1",
+      "file": "ui-armeabi-v7a-v1.0.1.koreplugin",
+      "url": "https://github.com/ingriddaleusag-dotcom/Koreplay/releases/download/v1.6.0-build.1/ui-armeabi-v7a-v1.0.1.koreplugin",
+      "releaseTag": "v1.6.0-build.1",
+      "size": 3203487,
+      "sha256": "d527682858bf3577305143ab10a586e16029adc4b936432f37f02344e07523c6"
     },
     {
       "id": "demo",
