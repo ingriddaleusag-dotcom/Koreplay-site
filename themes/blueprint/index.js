@@ -229,7 +229,7 @@ export default {
       h("div", { class: "bp-notes-text" },
         h("h2", { id: "bp-notes-title" }, "技术要求"),
         h("ol", null,
-          h("li", null, AUTH_NOTE, " ", h("a", { href: LINKS.support, target: "_blank", rel: "noreferrer" }, "联系维护者")),
+          h("li", null, AUTH_NOTE, " ", h("a", { href: LINKS.releases, target: "_blank", rel: "noreferrer" }, "打开下载页")),
           h("li", null, "每个零件都附带 SHA-256。下载后计算哈希值，与物料清单或 ", h("a", { href: ctx.checksums, download: "SHA256SUMS" }, "SHA256SUMS"), " 一致即说明文件完整。"),
           h("li", null, "正式插件经过签名和完整性校验，并检查与本体接口版本的兼容性。"),
           h("li", null, DISCLAIMER))),

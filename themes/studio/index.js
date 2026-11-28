@@ -161,7 +161,7 @@ export default {
       h("div", { class: "st-card" },
         h("h2", { id: "st-verify-title" }, "下载说明"),
         h("p", null, AUTH_NOTE),
-        h("a", { class: "st-link", href: LINKS.support, target: "_blank", rel: "noreferrer" }, "联系维护者")),
+        h("a", { class: "st-link", href: LINKS.releases, target: "_blank", rel: "noreferrer" }, "下载页")),
       h("div", { class: "st-card" },
         h("h2", null, "核对文件完整性"),
         h("p", null, "每个安装包都列出了 SHA-256。下载后用校验工具计算哈希值，与本页或校验文件中的值一致，说明文件完整。"),

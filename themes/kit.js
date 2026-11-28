@@ -4,6 +4,7 @@ export const LINKS = {
   repo: "https://github.com/ingriddaleusag-dotcom/Koreplay-site",
   license: "https://www.gnu.org/licenses/agpl-3.0.html",
   upstream: "https://github.com/q215613905/TVBoxOS",
+  releases: "https://github.com/ingriddaleusag-dotcom/Koreplay-site/releases/latest",
   support: "https://github.com/ingriddaleusag-dotcom/Koreplay-site/issues",
 };
 
@@ -46,7 +47,7 @@ export const ABIS = {
 export const ABI_HINT = "近几年的手机和平板大多是 ARM64。不确定时，可在系统设置的“关于手机”里查看处理器信息。";
 
 export const STEPS = [
-  { title: "获取并安装本体", text: "安装包采用受限分发，请联系维护者申请访问。获得通用 APK 并安装后，应用会以轻量的文件管理界面启动。" },
+  { title: "获取并安装本体", text: "安装包在 GitHub 发布页下载。装好通用 APK 后，应用会以轻量的文件管理界面启动。" },
   { title: "安装界面插件", text: "在插件管理中安装界面插件，之后即可进入常规主界面。" },
   { title: "添加运行时和播放器", text: "按设备架构安装需要的插件。常见接口需要 Java 和 QuickJS，播放器至少装一个。" },
   { title: "配置你的接口", text: "在“设置 → 接口配置”添加你自己的配置地址，选择站源后开始浏览。" },
@@ -54,7 +55,7 @@ export const STEPS = [
 
 export const DISCLAIMER = "Koreplay 只提供客户端软件，不提供、托管或分发任何影视内容或接口。内容与接口由用户自行配置，请只接入你有权访问的服务。";
 
-export const AUTH_NOTE = "安装包采用受限分发，本网站仅展示版本、组件及校验信息，不提供公开安装包或下载地址。请联系维护者申请访问；获得文件后可与 SHA-256 校验信息比对。";
+export const AUTH_NOTE = "安装包在 GitHub 发布页公开下载，文件按架构拆分。本页只列出当前版本的组件、大小和 SHA-256，下载后可与校验值比对。";
 
 export function formatSize(bytes) {
   if (bytes < 1024 * 1024) return `${Math.max(1, Math.round(bytes / 1024))} KB`;
@@ -137,13 +138,13 @@ export function icon(name, className = "icon") {
 export function downloadLink(pkg, props, ...children) {
   const link = h("a", props, ...children);
   if (!pkg.url) {
-    link.href = LINKS.support;
+    link.href = LINKS.releases;
     link.removeAttribute("download");
-    link.setAttribute("aria-label", "安装包受限分发，联系维护者申请访问");
-    link.title = "安装包受限分发，联系维护者申请访问";
+    link.setAttribute("aria-label", "安装包在 GitHub 发布页下载");
+    link.title = "安装包在 GitHub 发布页下载";
     const textNodes = document.createTreeWalker(link, NodeFilter.SHOW_TEXT);
     while (textNodes.nextNode()) {
-      textNodes.currentNode.textContent = textNodes.currentNode.textContent.replace(/下载(?: Android 本体|本体 APK|本体| APK|已装配的插件)?/g, "申请访问");
+      textNodes.currentNode.textContent = textNodes.currentNode.textContent.replace(/下载(?: Android 本体|本体 APK|本体| APK|已装配的插件)?/g, "下载页");
     }
     return link;
   }

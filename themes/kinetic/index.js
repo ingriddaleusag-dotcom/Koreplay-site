@@ -133,7 +133,7 @@ export default {
       h("div", { class: "kn-note" },
         h("h3", null, "下载说明"),
         h("p", null, AUTH_NOTE),
-        h("a", { class: "kn-link", href: LINKS.support, target: "_blank", rel: "noreferrer" }, "联系维护者")),
+        h("a", { class: "kn-link", href: LINKS.releases, target: "_blank", rel: "noreferrer" }, "打开下载页")),
       h("div", { class: "kn-note" },
         h("h3", null, "核对文件完整性"),
         h("p", null, "组件清单里每一项都能复制 SHA-256。下载后计算哈希值，与本页或校验文件一致，说明文件完整。"),
@@ -283,7 +283,7 @@ export default {
         return;
       }
       if (pkgs.some((pkg) => !pkg.url)) {
-        ctx.toast("安装包受限分发，请通过页面下方的“联系维护者”申请访问");
+        ctx.toast("安装包都在下载页，请先打开下载页取文件");
         return;
       }
       ctx.toast(`开始下载 ${pkgs.length} 个安装包，浏览器可能会询问是否允许多个下载`);

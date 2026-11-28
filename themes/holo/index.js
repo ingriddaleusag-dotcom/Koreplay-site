@@ -149,7 +149,7 @@ export default {
         h("article", { class: "ho-panel" },
           h("h3", null, "下载说明"),
           h("p", null, AUTH_NOTE),
-          h("a", { class: "ho-link", href: LINKS.support, target: "_blank", rel: "noreferrer" }, "联系维护者", icon("arrow"))),
+          h("a", { class: "ho-link", href: LINKS.releases, target: "_blank", rel: "noreferrer" }, "打开下载页", icon("arrow"))),
         h("article", { class: "ho-panel" },
           h("h3", null, "核对文件完整性"),
           h("p", null, "每个模块都附带 SHA-256，点击即可复制。下载后计算哈希值，与本页或校验文件一致即说明文件完整。正式插件还会在安装时校验签名与接口兼容性。"),

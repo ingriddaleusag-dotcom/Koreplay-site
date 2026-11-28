@@ -158,11 +158,11 @@ export default {
           if (!pkg) return line(span("tm-err", `get: 找不到 “${id}”。输入 ls 查看可用 ID。`));
           if (!pkg.url) {
             line(AUTH_NOTE);
-            line("联系维护者：", pkgLink(pkg, "申请访问"));
+            line("下载页：", pkgLink(pkg, "打开"));
             return;
           }
           line(span("tm-ok", "→ "), "开始下载 ", pkgLink(pkg), span("tm-dim", ` (${formatSize(pkg.size)})`));
-          line(span("tm-dim", "  如果浏览器跳到 GitHub 404，说明需要先登录有权限的账号。输入 auth 了解详情。"));
+          line(span("tm-dim", "  浏览器会打开下载页，按架构挑对应文件即可。输入 dl 了解详情。"));
           if (fromUser) {
             const a = downloadLink(pkg, { hidden: true });
             document.body.append(a);
@@ -208,11 +208,11 @@ export default {
           }
         },
       },
-      auth: {
-        desc: "下载权限说明",
+      dl: {
+        desc: "下载说明",
         run() {
           line(AUTH_NOTE);
-          line("联系维护者：", h("a", { class: "tm-a", href: LINKS.support, target: "_blank", rel: "noreferrer" }, LINKS.support));
+          line("下载页：", h("a", { class: "tm-a", href: LINKS.releases, target: "_blank", rel: "noreferrer" }, LINKS.releases));
         },
       },
       verify: {
